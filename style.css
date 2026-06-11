@@ -1,0 +1,59 @@
+/* --- CONFIGURAÇÕES GERAIS --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Cor de fundo da tela (Cinza claro) */
+    color: #333333;            /* Cor do texto geral */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;         /* Garante que o conteúdo fique centralizado na tela toda */
+}
+
+/* --- CARTÃO CENTRAL (CONTAINER) --- */
+.container {
+    background-color: #ffffff; /* Fundo branco do cartão */
+    padding: 40px;
+    border-radius: 12px;       /* Bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor */
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+/* --- TEXTOS --- */
+h1 {
+    color: #2c3e50;            /* Azul escuro para o título */
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #7f8c8d;            /* Cinza para o texto de descrição */
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* --- BOTÃO --- */
+.botao {
+    display: inline-block;
+    background-color: #3498db; /* Cor azul do botão */
+    color: #ffffff;            /* Cor do texto do botão */
+    padding: 12px 30px;
+    text-decoration: none;     /* Remove o sublinhado padrão de links */
+    border-radius: 25px;       /* Deixa o botão arredondado */
+    font-weight: bold;
+    transition: background 0.3s ease; /* Transição suave na cor ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse por cima do botão */
+.botao:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+}
